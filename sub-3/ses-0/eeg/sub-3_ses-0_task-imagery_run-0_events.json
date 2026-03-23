@@ -1,0 +1,47 @@
+{
+	"onset": {
+		"Description": "Onset (in seconds) of the event from the beginning of the first datapoint. Negative onsets account for events before the first stored data point.",
+		"Units": "s"
+	},
+	"duration": {
+		"Description": "Duration of the event in seconds from onset. Must be zero, positive, or 'n/a' if unavailable. A zero value indicates an impulse event. ",
+		"Units": "s"
+	},
+	"sample": {
+		"Description": "The event onset time in number of sampling points.First sample is 0."
+	},
+	"value": {
+		"Description": "The event code (also known as trigger code or event ID) associated with the event."
+	},
+	"trial_type": {
+		"Description": "The type, category, or name of the event.",
+		"HED": {
+			"up_slow_near": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Upward, (Label/slow), (Label/near)))",
+			"up_slow_far": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Upward, (Label/slow), (Label/far)))",
+			"up_fast_near": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Upward, (Label/fast), (Label/near)))",
+			"up_fast_far": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Upward, (Label/fast), (Label/far)))",
+			"down_slow_near": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Downward, (Label/slow), (Label/near)))",
+			"down_slow_far": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Downward, (Label/slow), (Label/far)))",
+			"down_fast_near": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Downward, (Label/fast), (Label/near)))",
+			"down_fast_far": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Downward, (Label/fast), (Label/far)))",
+			"left_slow_near": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Left, (Label/slow), (Label/near)))",
+			"left_slow_far": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Left, (Label/slow), (Label/far)))",
+			"left_fast_near": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Left, (Label/fast), (Label/near)))",
+			"left_fast_far": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Left, (Label/fast), (Label/far)))",
+			"right_slow_near": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Right, (Label/slow), (Label/near)))",
+			"right_slow_far": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Right, (Label/slow), (Label/far)))",
+			"right_fast_near": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Right, (Label/fast), (Label/near)))",
+			"right_fast_far": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Reach, Right, (Label/fast), (Label/far)))"
+		}
+	},
+	"Description": "Event annotations for imagery task (down_fast_far, down_fast_near, down_slow_far, down_slow_near, left_fast_far, left_fast_near, left_slow_far, left_slow_near, right_fast_far, right_fast_near, right_slow_far, right_slow_near, up_fast_far, up_fast_near, up_slow_far, up_slow_near).",
+	"StimulusPresentation": {
+		"SoftwareName": "EEGLAB",
+		"StimulusType": "visual cue",
+		"StimulusModalities": [
+			"visual"
+		],
+		"PrimaryModality": "visual",
+		"Environment": "laboratory"
+	}
+}

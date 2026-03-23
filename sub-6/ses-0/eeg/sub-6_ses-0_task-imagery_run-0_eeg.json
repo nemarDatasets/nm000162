@@ -1,0 +1,48 @@
+{
+	"TaskName": "imagery",
+	"Manufacturer": "Brain Products",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 500.0,
+	"SoftwareFilters": {
+		"preprocessing_steps": {
+			"Description": "low-pass filter at 100 Hz, notch filter at 50 Hz, downsampling to 200 Hz, bad channel rejection and interpolation, bandpass filter 0.3-80 Hz, eye artifact correction via SGEYESUB, ICA with FastICA algorithm, IC artifact removal, low-pass filter at 3 Hz, downsampling to 10 Hz, bad trial rejection, common average reference"
+		}
+	},
+	"RecordingDuration": 7465.578,
+	"RecordingType": "continuous",
+	"EEGReference": "common average",
+	"EEGGround": "n/a",
+	"EEGPlacementScheme": "af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+	"EEGChannelCount": 67,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "BrainAmp",
+	"SoftwareVersions": "EEGLAB",
+	"CapManufacturer": "Zebris Medical GmbH",
+	"CapManufacturersModelName": "ELPOS",
+	"HardwareFilters": {
+		"Bandpass": {
+			"low_cutoff_hz": 0.3,
+			"high_cutoff_hz": 80.0,
+			"Type": "Butterworth",
+			"Order": 2
+		},
+		"Notch": {
+			"CutoffFrequency": [
+				50
+			]
+		}
+	},
+	"TaskDescription": "[discrete reaching] Four-direction center-out reaching task with varying speeds (quick/slow) and distances (near/far) following visual cue, self-paced execution with eye fixation on cue",
+	"Instructions": "Follow cue with eyes, wait at least 1s after cue stops, mimic movement while fixating eyes on cue, move smoothly with whole arm avoiding wrist rotation",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883/",
+	"InstitutionName": "Institute of Neural Engineering, Graz University of Technology",
+	"InstitutionAddress": "Stremayrgasse 16/IV, 8010 Graz, Austria",
+	"InstitutionalDepartmentName": "Institute of Neural Engineering",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "EEG dataset investigating simultaneous encoding of speed, distance, and direction in discrete hand reaching movements using a four-direction center-out task",
+	"MISCChannelCount": 0
+}
