@@ -1,45 +1,47 @@
 {
-	"Name": "BNCI 2025-001 Motor Kinematics Reaching dataset",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-4.0",
-	"Authors": [
-		"Nitikorn Srisrisawang",
-		"Gernot R M\u00fcller-Putz"
-	],
-	"Acknowledgements": "Members of the Graz BCI team, especially Markus Crell for providing motion capture software",
-	"Funding": [
-		"Royal Thai Government (scholar funding for N.S.)",
-		"BioTechMed Graz"
-	],
-	"EthicsApprovals": [
-		"Ethical committee at the Graz University of Technology (EK-28/2024)",
-		"Declaration of Helsinki"
-	],
-	"ReferencesAndLinks": [
-		"https://github.com/rkobler/eyeartifactcorrection"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1088/1741-2552/ada0ea",
-			"URL": "https://github.com/rkobler/eyeartifactcorrection"
-		}
-	],
-	"Keywords": [
-		"electroencephalography",
-		"brain\u2013computer interface",
-		"source localization",
-		"discrete reaching",
-		"center-out task"
-	],
-	"PublicationYear": 2024
+  "Name": "BNCI 2025-001 Motor Kinematics Reaching dataset",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Nitikorn Srisrisawang",
+    "Gernot R Müller-Putz"
+  ],
+  "Acknowledgements": "Members of the Graz BCI team, especially Markus Crell for providing motion capture software",
+  "Funding": [
+    "Royal Thai Government (scholar funding for N.S.)",
+    "BioTechMed Graz"
+  ],
+  "EthicsApprovals": [
+    "Ethical committee at the Graz University of Technology (EK-28/2024)",
+    "Declaration of Helsinki"
+  ],
+  "ReferencesAndLinks": [
+    "https://github.com/rkobler/eyeartifactcorrection"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1088/1741-2552/ada0ea",
+      "URL": "https://github.com/rkobler/eyeartifactcorrection"
+    }
+  ],
+  "Keywords": [
+    "electroencephalography",
+    "brain–computer interface",
+    "source localization",
+    "discrete reaching",
+    "center-out task"
+  ],
+  "PublicationYear": 2024,
+  "DatasetDOI": "10.82901/nemar.nm000162",
+  "Version": "1.0.0"
 }
