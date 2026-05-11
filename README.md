@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000162-blue)](https://doi.org/10.82901/nemar.nm000162)
+
 # BNCI 2025-001 Motor Kinematics Reaching dataset
 
 BNCI 2025-001 Motor Kinematics Reaching dataset.
