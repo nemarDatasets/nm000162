@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2025-001 Motor Kinematics Reaching dataset",
-  "description": "This dataset comprises preprocessed electroencephalography (EEG) recordings from 20 healthy participants performing a four-direction center-out reaching task with varying speeds and distances under visual cueing. Acquired using a 67-channel BrainAmp system at 500 Hz, the data includes 960 trials across 16 motor imagery classes and has undergone comprehensive preprocessing including artifact correction, ICA decomposition, and source localization. The dataset supports brain-computer interface research and motor imagery classification studies.",
-  "methods_description": "EEG data were acquired from 20 participants using a 67-channel BrainAmp system (Zebris Medical GmbH ELPOS cap) at 500 Hz sampling rate with common average reference. Participants performed a cue-paced four-direction center-out reaching task with 16 classes defined by direction (up/down/left/right), speed (slow/fast), and distance (near/far). Preprocessing included 50 Hz notch filtering, low-pass filtering at 100 Hz, downsampling to 200 Hz, bad channel rejection and interpolation, bandpass filtering (0.3-80 Hz), eye artifact correction via SGEYESUB, ICA with FastICA, IC artifact removal, and common average reference. Final analysis used 55 EEG channels after removal of frontal and EOG channels.",
+  "description": "A preprocessed electroencephalography dataset from 20 healthy participants performing a four-direction center-out reaching task with varying speeds and distances under visual cueing. The dataset comprises 960 trials across 16 motor imagery classes, recorded at 500 Hz using a 67-channel BrainAmp system with extensive preprocessing including eye artifact correction, ICA, and common average referencing. This resource supports brain-computer interface research and motor imagery classification studies.",
+  "methods_description": "EEG data were acquired at 500 Hz using a 67-channel BrainAmp system (Zebris ELPOS cap) with 4 EOG channels. Participants performed a cue-paced discrete reaching task with four directions (up, down, left, right), two speeds (slow, fast), and two distances (near, far), yielding 16 classes. Preprocessing included low-pass filtering (100 Hz), 50 Hz notch filtering, downsampling to 200 Hz, bad channel rejection and interpolation, bandpass filtering (0.3-80 Hz), eye artifact correction via SGEYESUB, ICA with FastICA, IC artifact removal, and common average reference. Final analysis used 55 channels after frontal and EOG channel removal.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,10 +27,10 @@
       "term": "motor imagery"
     },
     {
-      "term": "source localization"
+      "term": "reaching task"
     },
     {
-      "term": "reaching task"
+      "term": "source localization"
     },
     {
       "term": "artifact correction"
@@ -86,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "81c8c7c88b0416e80d57d133c8cee09db5d1b48fa21c606be7779aa72f879af4"
+  "source_hash": "be6ebf84711b9f0b9e525f6d537f3488e6d741a073bd778e0a6ee17d516c515b"
 }
