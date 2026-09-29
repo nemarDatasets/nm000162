@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2025-001 Motor Kinematics Reaching dataset",
-  "description": "A preprocessed electroencephalography dataset from 20 healthy participants performing a four-direction center-out reaching task with varying speeds and distances under visual cueing. The dataset comprises 960 trials across 16 motor imagery classes, recorded at 500 Hz using a 67-channel BrainAmp system with extensive preprocessing including eye artifact correction, ICA, and common average referencing. This resource supports brain-computer interface research and motor imagery classification studies.",
-  "methods_description": "EEG data were acquired at 500 Hz using a 67-channel BrainAmp system (Zebris ELPOS cap) with 4 EOG channels. Participants performed a cue-paced discrete reaching task with four directions (up, down, left, right), two speeds (slow, fast), and two distances (near, far), yielding 16 classes. Preprocessing included low-pass filtering (100 Hz), 50 Hz notch filtering, downsampling to 200 Hz, bad channel rejection and interpolation, bandpass filtering (0.3-80 Hz), eye artifact correction via SGEYESUB, ICA with FastICA, IC artifact removal, and common average reference. Final analysis used 55 channels after frontal and EOG channel removal.",
+  "description": "EEG recordings from 20 healthy participants performing a discrete center-out reaching task in four directions (up, down, left, right) at two speeds (slow, fast) and two distances (near, far). The data were recorded with 67 channels, including EOG, and preprocessed with eye artifact correction (SGEYESUB) and ICA. The dataset supports research on low-frequency EEG encoding of reaching kinematics and on brain-computer interfaces.",
+  "methods_description": "EEG was recorded with a BrainAmp amplifier at 500 Hz using an ELPOS cap with 67 channels and a 50 Hz notch filter. Participants followed a visual cue with their eyes and then performed self-paced reaching movements with the right arm, for 960 trials over 10 blocks. Preprocessing included band-pass filtering at 0.3-80 Hz, SGEYESUB eye artifact correction, FastICA with IClabel-based component removal, common average referencing, and bad trial rejection.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -13,6 +13,9 @@
     "Gernot R Müller-Putz": {}
   },
   "keywords": [
+    {
+      "term": "EEG"
+    },
     {
       "term": "Electroencephalography",
       "subject_scheme": "MeSH",
@@ -24,19 +27,16 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "motor imagery"
+      "term": "reaching movement"
     },
     {
-      "term": "reaching task"
+      "term": "motor kinematics"
     },
     {
       "term": "source localization"
     },
     {
-      "term": "artifact correction"
-    },
-    {
-      "term": "independent component analysis"
+      "term": "center-out task"
     }
   ],
   "related_identifiers": [
@@ -65,7 +65,7 @@
     },
     {
       "funder_name": "Royal Thai Government",
-      "award_title": "Scholar funding"
+      "award_title": "Scholar funding for N.S."
     }
   ],
   "resource_type_general": "Dataset",
@@ -74,7 +74,7 @@
     "eeg"
   ],
   "sizes": [
-    "16.5 GB (43 files)"
+    "15.38 GB (43 files)"
   ],
   "formats": [
     ".bdf",
