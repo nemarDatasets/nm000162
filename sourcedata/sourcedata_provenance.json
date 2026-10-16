@@ -8,8 +8,8 @@
  "license": "CC-BY-4.0",
  "doi": "10.1088/1741-2552/ada0ea",
  "naming": "upstream_filenames_restored",
- "n_files": 20,
- "total_bytes": 381641544,
+ "n_files": 40,
+ "total_bytes": 23103737464,
  "files": [
   {
    "file": "p001/p001v2-trialblocks.set",
@@ -130,7 +130,176 @@
    "bytes": 18896744,
    "sha256": "ac988bde29c062d3691f159dc1c87da30bccfb25de604eaaa541465c29717394",
    "subject": "20"
+  },
+  {
+   "file": "p001/p001v2-trialblocks.fdt",
+   "bytes": 1168665680,
+   "sha256": "e8339634dae973dcc9f603a637e7e08366ef737cd9dde60526563f6d05405856",
+   "subject": "1",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p001.zip#p001v2-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p002/p002-trialblocks.fdt",
+   "bytes": 1006998680,
+   "sha256": "ed2f92e4b53584789628d26340801f84cb75d36282c93fdd37486f02faafc495",
+   "subject": "2",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p002.zip#p002-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p003/p003-trialblocks.fdt",
+   "bytes": 1092556520,
+   "sha256": "63ae3160b55843e86466ad4bba1bc41fc91c6895926149f520e66a1b372135fa",
+   "subject": "3",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p003.zip#p003-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p004/p004-trialblocks.fdt",
+   "bytes": 1196151200,
+   "sha256": "727946d9682470de086bf5d73b91f5ca89e61b505b2f49cd0990a5a9d254d35f",
+   "subject": "4",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p004.zip#p004-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p005/p005-trialblocks.fdt",
+   "bytes": 1198994040,
+   "sha256": "e23459ae36604c9cb916ff8797dd2c68a5a4d340d9200c4a3686e90eb73ac1f3",
+   "subject": "5",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p005.zip#p005-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p006/p006-trialblocks.fdt",
+   "bytes": 1060112360,
+   "sha256": "b3007b3ce4b07d6c19f18400ba357c9f5793b1be419ab5bbc517644db24007b8",
+   "subject": "6",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p006.zip#p006-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p007/p007-trialblocks.fdt",
+   "bytes": 1086734520,
+   "sha256": "529565edffd38948ea7f07fe632327a4e2d645d0e1c1dbf7bcb6cf3f1b11e3a0",
+   "subject": "7",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p007.zip#p007-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p008/p008-trialblocks.fdt",
+   "bytes": 1199394480,
+   "sha256": "7a79f29e90d82cec5f3826c48c2485713b00f2ed1d41c1ae55c5e0e389d9fef8",
+   "subject": "8",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p008.zip#p008-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p009/p009-trialblocks.fdt",
+   "bytes": 1140316800,
+   "sha256": "c9822ffcb65fbbfbfddddee864282b1114cd2f5487dea28a169d5c2e07f212e9",
+   "subject": "9",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p009.zip#p009-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p010/p010-trialblocks.fdt",
+   "bytes": 1125412480,
+   "sha256": "40d5679adeb3693bc8691505b4e8c0e5fd48f2360025013e51bfc9cb30a72822",
+   "subject": "10",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p010.zip#p010-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p011/p011-trialblocks.fdt",
+   "bytes": 1135346800,
+   "sha256": "11ca676db07310436b268091d6bedcc17af911bad735bce857f76223bbc41fda",
+   "subject": "11",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p011.zip#p011-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p012/p012-trialblocks.fdt",
+   "bytes": 1089841480,
+   "sha256": "7bcc965e5acc769f938ff2bd6297244229137e46af3909dc02ce9fd8d92c1794",
+   "subject": "12",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p012.zip#p012-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p013/p013-trialblocks.fdt",
+   "bytes": 1142296280,
+   "sha256": "41c12e6336c441b245366436c5db3899d3a6267ce3c7e346ed5becc2aceb78b7",
+   "subject": "13",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p013.zip#p013-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p014/p014-trialblocks.fdt",
+   "bytes": 1194981120,
+   "sha256": "6bb799e7f4bc31982da6baa4cbdce8926ff7243e4fce81e72514456d9c43e8b1",
+   "subject": "14",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p014.zip#p014-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p015/p015-trialblocks.fdt",
+   "bytes": 1112990320,
+   "sha256": "995e56e2a2f4373581162bd77744d46a1218ea4f176ed7048966aff7a2a123c8",
+   "subject": "15",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p015.zip#p015-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p016/p016-trialblocks.fdt",
+   "bytes": 1251494280,
+   "sha256": "e06e97d2a3540722dfd45142a9994a8df6793dd6a62f6c0ceda863a94aa2f326",
+   "subject": "16",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p016.zip#p016-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p017/p017-trialblocks.fdt",
+   "bytes": 1152031800,
+   "sha256": "a2424e29f61ed4a47c826b1bb19611890990de16a901d4ad773390561e2ca06a",
+   "subject": "17",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p017.zip#p017-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p018/p018-trialblocks.fdt",
+   "bytes": 1127110800,
+   "sha256": "ffccd6b73476d44c6f5c3067c9f8fb487171bf1b21af0eea28515074b44518dc",
+   "subject": "18",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p018.zip#p018-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p019/p019-trialblocks.fdt",
+   "bytes": 1116960640,
+   "sha256": "20ae73c9bbf7689e372f21b1d6e7d815fad7ad04c10cb7eda5e93856f884d978",
+   "subject": "19",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p019.zip#p019-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
+  },
+  {
+   "file": "p020/p020-trialblocks.fdt",
+   "bytes": 1123705640,
+   "sha256": "e4cfcd3e0d3850d240e47f1bef6ef9aab3f2d9f6131c16184251b66747fea90b",
+   "subject": "20",
+   "url": "https://lampx.tugraz.at/~bci/database/001-2025/p020.zip#p020-trialblocks.fdt",
+   "how": "zip member read with HTTP range requests, CRC-32 checked; the deposited .set equals the same archive's member (sha256)"
   }
  ],
- "n_subjects_recorded": 20
+ "n_subjects_recorded": 20,
+ "revisions": [
+  {
+   "date": "2026-10-16",
+   "version": "1.0.3",
+   "added_files": 20,
+   "added_bytes": 22722095920,
+   "note": "Added the EEGLAB .fdt files (sample data) of the 20 already-deposited trialblocks .set headers (the original snapshot kept only the .set files, whose EEG.data field names the .fdt). Each .fdt is the zip member next to the .set in https://lampx.tugraz.at/~bci/database/001-2025/pXXX.zip, read with HTTP range requests and CRC-32 checked; every deposited .set equals its member in the same archive (sha256), so the pair comes from the same release."
+  }
+ ]
 }

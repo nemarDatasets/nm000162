@@ -1,0 +1,6 @@
+1.0.3 2026-10-16
+  - sourcedata: added the 20 EEGLAB sample files pXXX/<stem>-trialblocks.fdt (22,722,095,920 bytes)
+    that the 20 deposited pXXX/*-trialblocks.set headers store their data in, unchanged from the
+    BNCI Horizon 2020 release 001-2025 (lampx.tugraz.at/~bci/database/001-2025/pXXX.zip, read with
+    HTTP range requests, CRC-32 checked). moabb.datasets.BNCI2025_001 reads the .set together with
+    its .fdt. No existing file changed; the BIDS tree is unchanged.
