@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "BNCI 2025-001 Motor Kinematics Reaching dataset",
-  "description": "EEG recordings from 20 healthy participants performing a discrete center-out reaching task in four directions (up, down, left, right) at two speeds (slow, fast) and two distances (near, far). The data were recorded with 67 channels, including EOG, and preprocessed with eye artifact correction (SGEYESUB) and ICA. The dataset supports research on low-frequency EEG encoding of reaching kinematics and on brain-computer interfaces.",
-  "methods_description": "EEG was recorded with a BrainAmp amplifier at 500 Hz using an ELPOS cap with 67 channels and a 50 Hz notch filter. Participants followed a visual cue with their eyes and then performed self-paced reaching movements with the right arm, for 960 trials over 10 blocks. Preprocessing included band-pass filtering at 0.3-80 Hz, SGEYESUB eye artifact correction, FastICA with IClabel-based component removal, common average referencing, and bad trial rejection.",
+  "description": "EEG recordings from 20 healthy participants performing a four-direction center-out discrete reaching task. Movements varied in speed (slow/fast) and distance (near/far), giving 16 conditions across 960 trials per participant. Recordings were made with 67 channels (including EOG) and preprocessed with eye artifact correction and ICA. The dataset supports study of low-frequency EEG encoding of movement kinematics and source localization for brain-computer interfaces.",
+  "methods_description": "EEG was recorded with a BrainAmp system at 500 Hz using an ELPOS cap. Participants followed a visual cue and performed self-paced reaching movements with the right arm while fixating on the cue. Preprocessing included notch and bandpass filtering, bad channel interpolation, SGEYESUB eye artifact correction, FastICA with IClabel component removal, downsampling, bad trial rejection, and common average referencing.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -13,9 +13,6 @@
     "Gernot R Müller-Putz": {}
   },
   "keywords": [
-    {
-      "term": "EEG"
-    },
     {
       "term": "Electroencephalography",
       "subject_scheme": "MeSH",
@@ -27,16 +24,16 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "reaching movement"
-    },
-    {
-      "term": "motor kinematics"
-    },
-    {
-      "term": "source localization"
+      "term": "discrete reaching"
     },
     {
       "term": "center-out task"
+    },
+    {
+      "term": "movement kinematics"
+    },
+    {
+      "term": "source localization"
     }
   ],
   "related_identifiers": [
@@ -54,6 +51,16 @@
       "identifier": "https://nemar.org/dataset/nm000162",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "funding_references": [
@@ -74,10 +81,11 @@
     "eeg"
   ],
   "sizes": [
-    "15.38 GB (43 files)"
+    "36.54 GB (63 files)"
   ],
   "formats": [
     ".bdf",
+    ".fdt",
     ".html",
     ".json",
     ".md",
@@ -86,5 +94,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "be6ebf84711b9f0b9e525f6d537f3488e6d741a073bd778e0a6ee17d516c515b"
+  "source_hash": "d0aff926489fff6b53aea7e47cd000a55885b43dcd89f5ddb4408a5ee391d78c"
 }
